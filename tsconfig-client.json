@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ESNEXT",
+    "module": "ESNEXT",
+    "outDir": "./resources/YOURGAMEMODENAME/client",
+    "rootDir": "./src/client"
+  },
+  "include": ["./src/client/**/*.ts"]
+}

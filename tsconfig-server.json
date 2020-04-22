@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ESNEXT",
+    "module": "commonjs",
+    "outDir": "./resources/YOURGAMEMODENAME/server",
+    "rootDir": "./src/server"
+  },
+  "include": ["./src/server/**/*.ts"]
+}
