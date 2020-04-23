@@ -115,7 +115,6 @@ dist
 .pnp.*
 
 # Custom
-.vscode/
 cache/
 crashdumps/
 data/
