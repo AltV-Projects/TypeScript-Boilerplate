@@ -1,6 +1,6 @@
 {
   "name": "typescript-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A basic boilerplate to get started using typescript with alt:V",
   "main": "index.js",
   "scripts": {
@@ -26,8 +26,10 @@
   },
   "homepage": "https://github.com/AltV-Projects/TypeScript-Boilerplate#readme",
   "devDependencies": {
-    "@altv/native-types": "^1.0.3",
-    "@altv/types": "^1.0.19",
+    "@altv/types-client": "^1.1.0",
+    "@altv/types-natives": "^1.1.0",
+    "@altv/types-server": "^1.2.0",
+    "@altv/types-webview": "^1.0.2",
     "@types/node": "^13.13.2",
     "copyfiles": "^2.2.0",
     "typescript": "^3.8.3"
