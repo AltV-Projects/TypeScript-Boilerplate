@@ -16,15 +16,15 @@ Next change the gamemode name from "**_YOURGAMEMODENAME_**" in 3 files, `tsconfi
 
 Best practice is to use 3 terminal windows. (I prefer using [cmder](https://cmder.net/) on Windows)
 
-```text
+```js
 npm run build:server:watch //Build server files on the fly
 npm run build:client:watch //Build client files on the fly
-npm run copy:meta // Copy files like .html, .js, .css
+npm run copy:meta // Copy *.html, *.js, *.css - If you want to copy i.E. .jpg you need to add it to this command
 ```
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please [open an issue](/issues) first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
