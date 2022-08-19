@@ -19,7 +19,6 @@ Best practice is to use 3 terminal windows. (I prefer using [cmder](https://cmde
 ```js
 npm run build:server:watch //Build server files on the fly
 npm run build:client:watch //Build client files on the fly
-npm run copy:meta // Copy *.html, *.js, *.css - If you want to copy i.E. .jpg you need to add it to this command
 ```
 
 ## Contributing
