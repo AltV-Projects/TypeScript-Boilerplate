@@ -2,7 +2,6 @@
   "name": "typescript-boilerplate",
   "version": "0.0.3",
   "description": "A basic boilerplate to get started using typescript with alt:V",
-  "main": "index.js",
   "scripts": {
     "build": "tsc -p tsconfig-server.json && tsc -p tsconfig-client.json && npm run copy:meta",
     "build:server:watch": "tsc -w -p tsconfig-server.json",
@@ -26,12 +25,13 @@
   },
   "homepage": "https://github.com/AltV-Projects/TypeScript-Boilerplate#readme",
   "devDependencies": {
-    "@altv/types-client": "^1.1.0",
-    "@altv/types-natives": "^1.1.0",
-    "@altv/types-server": "^1.2.0",
-    "@altv/types-webview": "^1.0.2",
-    "@types/node": "^13.13.2",
+    "@altv/types-client": "^2.3.1",
+    "@altv/types-natives": "^1.4.5",
+    "@altv/types-server": "^2.4.4",
+    "@altv/types-webview": "^1.0.4",
+    "@types/node": "^18.7.7",
     "cpx": "^1.5.0",
-    "typescript": "^3.8.3"
+    "npm-check-updates": "^16.0.5",
+    "typescript": "^4.7.4"
   }
 }
