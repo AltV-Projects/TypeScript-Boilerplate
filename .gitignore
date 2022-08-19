@@ -123,3 +123,7 @@ resources/
 altv-server.exe
 libnode.dll
 server.cfg
+
+# Editor folders
+.vs*
+.idea
