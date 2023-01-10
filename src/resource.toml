@@ -1,5 +1,7 @@
 type = "js"
 
+client-type = "js"
+
 main = "server/main.js"
 
 client-main = "client/main.js"
